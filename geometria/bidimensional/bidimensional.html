@@ -9,6 +9,8 @@
     <!-- Bootstrap 5.0 -->
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="../../CSS/bidimensional.css">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <!-- Bootstrap 5.0 -->
@@ -20,7 +22,7 @@
     </header>
 
     <!-- Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="../../index.html">Inicio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -72,5 +74,58 @@
     </nav>
     <!--Fin de NavBar-->
 
+    <div class="container">
+        <div id="contenido" class="d-flex flex-row justify-content-between g-5">
+            <div class="col colvideo p-5">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fx8ykZkU1I4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col coljumbo p-2">
+                <div class="jumbotron">
+                    <h2>¿Qué se entiende por bidimensional</h2>
+            
+                    <p class="lead">
+                        El término bidimensional (del latín bi-, “dos”, y dimensio, “medida” o “extensión”) significa según el Diccionario de la Real Academia Española “que tiene dos dimensiones”, esto es, que carece de profundidad (la llamada “tercera dimensión”), y posee únicamente dos dimensiones verificables: longitud (largo) y anchura (ancho).
+                    </p>
+                    <p class="text-muted">
+                        Los objetos y las figuras bidimensionales son representaciones posibles en un espacio plano, o sea, no tridimensional, y son ejemplos de ello los polígonos, las figuras geométricas simples, las líneas o los puntos. Por ejemplo, los sistemas de coordenadas cartesianas (llamados plano cartesiano) de eje x y eje y son formas de representación matemática bidimensional; pero si se incorpora una tercera dimensión (el eje z), pasan a ser tridimensionales.
+                    </p>   
+                </div>
+            </div>
+            
+        </div>
+        <table class="table table-dark table-borderless table-striped table-hover text-center">
+            <thead>
+                <tr>
+                  <th scope="col" rowspan="2">Número</th>
+                  <th scope="col" rowspan="2">Figura</th>
+                  <th scope="col" colspan="2">Fórmula</th>
+                </tr>
+                <tr>
+                    <th scope="col">Perimetro</th>
+                    <th scope="col">Area</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td><img src="../../imagenes/cuadrado.png" alt=""></td>
+                  <td><p>L = Lado</p><p>P=4*L</p></td>
+                  <td>A=L^2</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td><img src="../../imagenes/triangulo.png" alt=""></td>
+                  <td><p>L=Lado1</p><p>M=Lado2</p><p>N=Lado3</p><br><p>P=L+M+N</p></td>
+                  <td><p>B=Base</p><p>H=Altura</p><br><p>A=(B*H)/2</p></td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td><img src="../../imagenes/trapecio.png" alt=""></td>
+                  <td><p>L=Lado1</p><p>M=Lado2</p><p>N=Lado3</p><p>O=Lado=4</p><br><p>P=L+M+N+O</p></td>
+                  <td><p>B=Base Mayor</p><p>base menor</p><p>H=Altura</p><br><p>A=H(B+b)/2</p></td>
+                </tr>
+              </tbody>
+        </table>
+    </div>
 </body>
 </html>
