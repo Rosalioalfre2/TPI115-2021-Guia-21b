@@ -14,10 +14,18 @@ h1, h2 {
     color: mediumblue;
 } 
 
+#galeria img{
+    height: 300px;
+}
+
 .colvideo{
     background-color: plum;
 }
 
 .coljumbo{
     background-color: rgb(166, 221, 214);
+}
+
+footer a {
+    color: white;
 }
