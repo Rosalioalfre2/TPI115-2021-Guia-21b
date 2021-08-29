@@ -1,5 +1,5 @@
 header {
-    color: darkolivegreen;
+    color: teal;
     font-family: Georgia;
 }
 
@@ -25,9 +25,10 @@ main li{
     margin-top: 20px;
 }
 
-footer{
-    background-color: midnightblue;
+.footer{
+    background-color: rgba(0, 0, 0, 0.75);
     padding: 10px 0 10px 0;
+    border: 5px solid black;
 }
 
 footer p{
