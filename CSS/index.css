@@ -55,6 +55,7 @@ main p{
 
 .container{
     min-height: calc(100vh - 250px);
+    min-width: auto;
 }
 
 footer{
