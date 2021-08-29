@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body {
+    background-color: mistyrose;
+}
+
+table img{
+    width: 200px;
+    height: 200px;
+}
+
+h1, h2 {
+    font-family: 'Libre Baskerville', serif;
+    color: mediumblue;
+} 
+
+.colvideo{
+    background-color: plum;
+}
+
+.coljumbo{
+    background-color: rgb(166, 221, 214);
+}
