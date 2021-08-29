@@ -1,0 +1,29 @@
+header h1{
+    color: darkolivegreen;
+    font-family: Georgia;
+}
+
+main article header h3{
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+main article section p{
+    margin-top: 10px;
+}
+
+main article section h4{
+    margin-top: 20px;
+}
+
+main li{
+    font-size: 1.2em;
+}
+
+main li a:hover{
+    background-color: lightpink;
+}
+
+main li a:visited{
+    color: maroon;
+}

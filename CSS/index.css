@@ -1,63 +1,42 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-header h1, header h2{
-    text-align: center;
-    font-weight: bold;
-}
-
-body{
-    background-color: rgba(168, 172, 154, 0.623);
-}
-
-main{
-    padding: 0 20% 0 20%;
-}
-
-main p, main li{
-    font-size: 1.3em;
-}
-
-main li{
-    margin-top: 0.6em;
-}
-
-main li:hover{
-    background-color: lightgreen;
-    color: black;
-}
-
-main li a:visited{
-    color: green;
-}
-
-#Bienvenida{
-    margin-top: 25px;
-}
-
-article header h3{
-    margin-top: 25px;
-    color: black;
-    font-weight: bold;
-}
-
-article section h4{
-    margin-top: 20px;
-    color: blue;
-    font-weight: bold;
-}
-
-main p{
-    text-align: justify;
+header {
+    color: darkolivegreen;
+    font-family: Georgia;
 }
 
 .container{
-    min-height: calc(100vh - 250px);
+    font-size: 1.4em;
+    font-family: Verdana;
+    min-height: calc(70vh);
+}
+
+main li a:hover{
+    background-color: lightseagreen;
+}
+
+main li a:visited{
+    color: maroon;
+}
+
+main li{
+    margin-top: 15px;
+}
+
+#Bienvenida{
+    margin-top: 20px;
 }
 
 footer{
-    background-color: darkred;
-    color: white;
+    background-color: midnightblue;
+    padding: 10px 0 10px 0;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+    color: oldlace;
+    text-align: center;
+}
+
+footer a:visited{
+    color: lightpink;
 }
