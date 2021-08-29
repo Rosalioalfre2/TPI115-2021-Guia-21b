@@ -27,3 +27,19 @@ main li a:hover{
 main li a:visited{
     color: maroon;
 }
+
+footer{
+    background-color: midnightblue;
+    padding: 10px 0 10px 0;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+    color: oldlace;
+    text-align: center;
+}
+
+footer a:visited{
+    color: lightpink;
+}
