@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
-body {
-    background-color: mistyrose;
-}
-
 table img{
     width: 200px;
     height: 200px;
@@ -11,40 +7,8 @@ table img{
 
 h1, h2 {
     font-family: 'Libre Baskerville', serif;
-    color: mediumblue;
 } 
 
 #galeria img{
     height: 300px;
-}
-
-.colvideo{
-    background-color: plum;
-}
-
-.coljumbo{
-    background-color: rgb(166, 221, 214);
-}
-
-<<<<<<< HEAD
-.footer{
-    background-color: rgba(0, 0, 0, 0.75);
-    padding: 10px 0 10px 0;
-    border: 5px solid black;
-    margin-top: 15px;
-}
-
-footer p{
-    margin: 0;
-    padding: 0;
-    color: oldlace;
-    text-align: center;
-}
-
-footer a:visited{
-    color: lightpink;
-=======
-footer a {
-    color: white;
->>>>>>> 6c203f48f14440b0b04cbf29b1697362cffe24e9
 }
